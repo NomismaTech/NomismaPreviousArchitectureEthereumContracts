@@ -1,3 +1,6 @@
+# This repo is no longer maintained as it was used only in our previous architecture
+
+
 ## GETH in private network mode (development/staging)
 
 ### Launch GETH in private network mode
