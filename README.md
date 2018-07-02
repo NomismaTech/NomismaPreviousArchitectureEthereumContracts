@@ -1,4 +1,7 @@
-# This repo is no longer maintained as it was used only in our previous architecture
+# This repo is no longer maintained as it was used only in our previous architecture. Our new architecture implements our whitepaper more efficiently and with additional functionality
+Website: www.nomisma.one
+Email: lucasgaylord@protonmail.com
+
 
 
 ## GETH in private network mode (development/staging)
