@@ -7,6 +7,7 @@ import "zeppelin-solidity/contracts/token/ERC20/BurnableToken.sol";
 /**
  * @title TradeToken
  * @dev Trade token issued by ClaimContract
+ * TradeToken is used to redeem funds upon maturity of option contract (which is written in ClaimContract)
  */
 contract TradeToken is MintableToken, BurnableToken {
     string public name = "Trade token";
