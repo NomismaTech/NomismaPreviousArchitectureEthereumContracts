@@ -1,4 +1,4 @@
-# This repo is no longer maintained as it was used only in our previous architecture. Our new architecture implements our whitepaper more efficiently and with additional functionality
+# This repo is no longer maintained as it was used only in our previous architecture. Our new architecture implements our whitepaper more efficiently and with additional functionality. Not all code from original repo was included in this noe because of private keys
 Website: www.nomisma.one
 Email: lucasgaylord@protonmail.com
 
