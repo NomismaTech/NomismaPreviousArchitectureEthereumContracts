@@ -32,7 +32,7 @@ contract ClaimContract is Ownable {
     address public underlyingTypeAddress;         // type of the currency to be sold or bet on
     uint256 public expirationDate;            // at which the contract expires
     uint256 public strikePrice;               // price at which the currencies are sold in base currency
-    uint256 public premium;                    // premium for the option
+    uint256 public premium;                    // premium for the option, actually, it's not necessary to store this info
 
     modifier onlySettlement() {
         require(msg.sender == settlementContractAddress);
