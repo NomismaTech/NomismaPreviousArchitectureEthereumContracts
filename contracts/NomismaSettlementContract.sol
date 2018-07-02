@@ -11,6 +11,7 @@ import "./kyber-network/ExchangeConnector.sol";
 /**
  * @title NomismaSettlementContract
  * @dev Pairing, validating and settling ClaimContract pairs
+ * essentially, this contract is tasked with pairing short puts and long calls
  */
 contract NomismaSettlementContract is Ownable {
     using SafeMath for uint256;
