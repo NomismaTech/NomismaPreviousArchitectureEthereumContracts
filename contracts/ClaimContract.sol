@@ -9,6 +9,7 @@ import "./TradeToken.sol";
 /**
  * @title ClaimContract
  * @dev Representation of Option object. Holds specification of Option like optionType, notional, strikePrice etc.
+ * onchain representation of option contract, can be used for any option, we primarily use it for short puts and long calls
  */
 contract ClaimContract is Ownable {
     using SafeMath for uint256;
