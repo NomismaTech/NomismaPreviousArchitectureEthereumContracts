@@ -1,0 +1,39 @@
+{
+  "name": "nomisma",
+  "version": "0.1.0",
+  "description": "Smart contracts",
+  "scripts": {
+    "eslint:tests": "node node_modules/.bin/eslint 'test/**/*.js*'",
+    "test:truffle": "node node_modules/.bin/truffle test",
+    "solhint": "node node_modules/.bin/solhint contracts/**/*.sol",
+    "test": "yarn solhint && yarn eslint:tests && yarn test:truffle"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.42",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.42",
+    "@babel/polyfill": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-es2015": "^7.0.0-beta.40",
+    "@babel/preset-stage-0": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.42",
+    "@babel/runtime": "^7.0.0-beta.42",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^8.2.2",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0",
+    "eslint": "^4.18.1",
+    "eslint-config-node-strict": "^0.0.2",
+    "solhint": "^1.1.10",
+    "system-sleep": "^1.3.6",
+    "truffle": "4.1.8",
+    "truffle-hdwallet-provider": "0.0.5",
+    "truffle-test-helpers": "^0.0.5",
+    "zeppelin-solidity": "1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luca590/Nomisma_ethereum_smart_contracts.git"
+  }
+}
